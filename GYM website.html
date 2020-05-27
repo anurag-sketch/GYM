@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANURAG FITNESS</title>
+</head>
+<link rel="stylesheet" href="anu.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('Gym.jpeg');
+        height: 144px;
+        font-family: 'Baloo Thambi 2', cursive;;
+    }
+    .left{border: 2px solid black;
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+    .mid{
+        display: block;
+        width: 36%;
+        margin:  20px auto;
+        
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 22px;
+        font-size: 20px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .left img{
+        width: 101px;
+    }
+    .left div{
+        text-align: center;
+        line-height: 4px;
+    
+    }
+    .btn{
+        margin: 0px 8px;
+        background-color: black;
+        color: white;
+        padding: 13px 17px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Thambi 2', cursive;;
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 125px 82px;
+        padding: 84px 29px;
+        display: block;
+        width: 33%;
+        border-radius: 10px;
+        
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        padding: 4px 14px;
+        margin: 20px 26px;
+        border: 2px solid black;
+        width: 364px;
+        border-radius: 10px;
+        font-family: 'Baloo Thambi 2', cursive;
+        font-size: 25px;
+    }
+    .container h1{
+
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: 28px 157px;
+        width: 28%;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+<img src="logo.jpg" alt="">
+<div>Anu Fitness</div>
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="right">
+<button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Ntd now</h1>
+        <form action="no.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
